@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web BLE Connector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>BLE Device Connector</h1>
+        <p>A Web Bluetooth application for GitHub Pages (requires HTTPS).</p>
+    </header>
+
+    <main>
+        <button id="connectButton">Scan & Connect to BLE Device</button>
+        <button id="disconnectButton" disabled>Disconnect</button>
+
+        <section id="status">
+            <h2>Connection Status</h2>
+            <p id="statusText">Disconnected.</p>
+            <p id="deviceName">Device: N/A</p>
+        </section>
+
+        </main>
+
+    <footer>
+        <p>Check browser compatibility (Chrome/Edge/Opera recommended).</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
